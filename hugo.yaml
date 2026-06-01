@@ -1,0 +1,35 @@
+baseURL: 'https://blog.cmackenzie.net/'
+title: 'breckan'
+theme: 'PaperMod'
+copyright: 'Colin Mackenzie · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)'
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  defaultTheme: dark
+  ShowRssButtonInSectionTermList: true
+  homeInfoParams:
+    Title: 'breckan'
+    Content: >
+      A static blog to replace my [dgplacenames Wordpress site](https://dgplacenames.wordpress.com/). Old posts will be moved over as and when. Comments aren't supported here but you can contact me via Bluesky or GitHub:
+  socialIcons:
+    - name: bluesky
+      url: 'https://bsky.app/profile/dgplacesnames.bsky.social'
+    - name: github
+      url: 'https://github.com/dgplacenames'
+
+menus:
+  main:
+    - name: Archive
+      url: /archives/
+      weight: 10
+    - name: Search
+      url: /search/
+      weight: 20
+    - name: Tags
+      url: /tags/
+      weight: 30

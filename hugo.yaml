@@ -18,7 +18,7 @@ params:
       A static blog to replace my [dgplacenames Wordpress site](https://dgplacenames.wordpress.com/). Old posts will be moved over as and when. Comments aren't supported here but you can contact me via Bluesky or GitHub:
   socialIcons:
     - name: bluesky
-      url: 'https://bsky.app/profile/dgplacesnames.bsky.social'
+      url: 'https://bsky.app/profile/dgplacenames.bsky.social'
     - name: github
       url: 'https://github.com/dgplacenames'
 
